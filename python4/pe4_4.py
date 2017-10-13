@@ -4,7 +4,7 @@ def new_password(oldpassword, newpassword):
     else:
         print ('False')
 
-new_password(oldpassword='wachtwoord',newpassword='wachtwoord1')
+new_password('wachtwoord','wachtwoord1')
 
 
 
