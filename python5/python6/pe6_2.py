@@ -1,13 +1,11 @@
-eval(input("Geef lijst met minimaal 10 strings: "))
-b = str(len(lijst))
+lijst = eval(input('Geef een lijst met minimaal 10 strubgs: '))
+
 nieuwelijst = []
-for item in lijst:
-    if b == 4:
-        nieuwelijst=nieuwelijst.append([b])
-        print (nieuwelijst)
+for woord in lijst:
+    if len(woord) >= 4:
+        nieuwelijst.append(woord)
+
+    print(nieuwelijst)
 
 
-
-
-
-
+#"boter", "kaas", "bier", "pizza", "thee", "drop", "koek", "cola", "boterham", "stamppot"
